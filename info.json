@@ -1,0 +1,9 @@
+{
+  "name": "Mini_Trains_2.0.0_BalanceRework",
+  "version": "0.1.0",
+  "title": "Mini Trains Balance Rework",
+  "author": "krustyPl",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "Mini_Trains = 2.0.0", "? space-age","! Mini-Trains-Lead-the-Way"],
+  "description": "Rebalances the mini train and the vanilla trian"
+}
