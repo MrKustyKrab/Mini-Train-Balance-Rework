@@ -102,11 +102,9 @@ if settings.startup["krt-vanilla-train-research-change"].value ~= "vulcanus" and
             })
         end
         if settings.startup["krt-mini-train-research-change"].value ~= "original" then -- 2X stupid scienie loop made me do this
-            research_vanilla.prerequisites = {"automation-3", "engine","mini-trains"}
-            research_vanilla.prerequisites = {"logistics-3", "engine","fluid-wagon"}
+            research_vanilla.prerequisites = {"automation-3", "engine","mini-trains","fluid-wagon"}
         else
-            research_vanilla.prerequisites = {"automation-3", "engine"}
-            research_vanilla.prerequisites = {"logistics-3", "engine",}
+            research_vanilla.prerequisites = {"automation-3", "engine","fluid-wagon"}
             research_mini.unit.count = 50
             research_mini.unit.time = 1
             table.insert(research_mini.unit.ingredients,{
@@ -149,7 +147,7 @@ if settings.startup["krt-vanilla-train-research-change"].value ~= "vulcanus" and
                 type = "unlock-recipe",
                 recipe = "rail"
                 })
-                research_vanilla.prerequisites = {"logistics-3", "engine","speed-module",}
+                research_vanilla.prerequisites = {"logistics-3", "engine","speed-module","fluid-wagon"}
                 research_mini.unit.count = 50
                 research_mini.unit.time = 1
                 table.insert(research_mini.unit.ingredients,{
@@ -163,7 +161,7 @@ if settings.startup["krt-vanilla-train-research-change"].value ~= "vulcanus" and
             if settings.startup["krt-mini-train-research-change"].value ~= "original" then -- 4X stupid scienie loop made me do this
                 research_vanilla.prerequisites = {"logistics-3", "engine","mini-trains","fluid-wagon"}
             else
-                research_vanilla.prerequisites = {"logistics-3", "engine",}
+                research_vanilla.prerequisites = {"logistics-3", "engine","fluid-wagon"}
                 research_mini.unit.count = 50
                 research_mini.unit.time = 1
                 table.insert(research_mini.unit.ingredients,{

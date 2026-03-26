@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-03-23
+  Features:
+    - Initial release
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-03-23
+  Changes:
+    - Quick change for info.json
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-03-24
+  Bugfixes:
+    - Removed leftover Space Age code that prevented the game from loading
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2026-03-25
+  Bugfixes:
+    - Fixed vanilla train research for setting "after automation 3", before that train was still researched after logistics 3
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2026-03-26
+  Bugfixes:
+    - Fixed vanilla railway not requiring fluid wagon research to unlock, railway now properly requires liquid wagon research since it includes a fluid wagon
+    - Fixed that when trying to load space age the setting.lua would not run code for some settings making fatal errors. Issue made by changes from 0.1.2
