@@ -114,7 +114,7 @@ else data:extend({
             type = "string-setting",
             name = "krt-vanilla-train-recipe-change",
             setting_type = "startup",
-            default_value = "vulcanus",
+            default_value = "changed",
             allowed_values = {"vanilla","changed"--[[,"vulcanus"]]}, --for now
             order = "bab" --9th     it's no fun no more
         },
@@ -122,7 +122,7 @@ else data:extend({
             type = "string-setting",
             name = "krt-vanilla-train-research-change",
             setting_type = "startup",
-            default_value = "vulcanus",
+            default_value = "changed",
             allowed_values = {"vanilla","logistics","automation"--[[,"vulcanus"]]},
             order = "bac" --10th
         },
