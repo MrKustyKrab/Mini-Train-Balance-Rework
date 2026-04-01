@@ -287,7 +287,7 @@ if settings.startup["krt-mini-train-speed-and-power-increase"].value == true the
     stats_mini_train.air_resistance = 0.0076
     stats_mini_cargo.air_resistance = 0.01013
     stats_mini_fluid.air_resistance = 0.01013
-    stats_vanilla_train.braking_force = 7
+    stats_mini_train.braking_force = 7
 end
 if settings.startup["krt-mini-cargo-wagon-capacity-buff"].value == true then
 

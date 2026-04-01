@@ -1,10 +1,10 @@
 {
   "name": "Mini_Trains_Balance-Rework",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "title": "Mini Trains Balance Rework",
   "author": "krustyPl",
   "factorio_version": "2.0",
   "dependencies": ["base >= 2.0", "Mini_Trains = 2.0.0", "? space-age","! Mini-Trains-Lead-the-Way"],
-  "description": "A mod that changes balance of a mod 'Mini Trains' and vanilla train in many ways /nEvery change made is optional and can be turned off with startup mod settings /n/nSpace age patch in future /n/nIf You have any requests or found some bugs please report them on the official mods.factorio.com modpage or GitHub repo (I check more often GitHub) /n/nCoded with 100% flesh, blood and little bit of tears /n/nList of changes that the mod does will come out soon "
+  "description": "A mod that changes balance of a mod 'Mini Trains' and vanilla train in many ways /nEvery change made is optional and can be turned off with startup mod settings /n/nSpace age patch in future, but you still compatible to run with it/n/nIf You have any requests or found some bugs please report them on the official mods.factorio.com modpage or GitHub repo /n/nCoded with 100% flesh, blood and little bit of tears /n/nList of changes that the mod does is on the modpage on mods.factorio.com or in README.txt inside the mod"
 }
 

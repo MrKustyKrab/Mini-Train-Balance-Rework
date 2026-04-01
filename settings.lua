@@ -122,7 +122,7 @@ else data:extend({
             type = "string-setting",
             name = "krt-vanilla-train-research-change",
             setting_type = "startup",
-            default_value = "changed",
+            default_value = "automation",
             allowed_values = {"vanilla","logistics","automation"--[[,"vulcanus"]]},
             order = "bac" --10th
         },

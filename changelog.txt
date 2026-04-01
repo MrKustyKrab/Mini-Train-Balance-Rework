@@ -28,3 +28,13 @@ Date: 2026-03-26
   Bugfixes:
     - Fixed vanilla railway not requiring fluid wagon research to unlock, railway now properly requires liquid wagon research since it includes a fluid wagon
     - Fixed that when trying to load space age the setting.lua would not run code for some settings making fatal errors. Issue made by changes from 0.1.2
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2026-04-1
+  Bugfixes:
+    - Changed diffrences in info.json and the mod structure to match. It shouldn't matter but sometimes when running it as a local manually installed mod, factorio would panic and not load
+    - One change in the code was adressed to vanilla train when it was supposed to be for mini train, now fixed
+
+  Features:
+    - Added a list of changes that the mod makes in README.md (file inside the mod) and in mods.factorio.com modpage
