@@ -45,7 +45,7 @@ to:
 **Buffs the speed and acceleration and other hidden values and power consumption to:**  
 * max speed on paper: `432 km/h`  
 * max speed in reality: `~444 km/h ` (*on solid fuel while being double headed with 2 wagons or one loco with 4 wagons*) 
-* braking power nerfed from `7` to `5`  
+* braking power nerfed from `10` to `5`  
 * power consumption set to `1.2MW`  
 * added a 3rd slot for fuel  
 ### Vanilla train recipe change: 
